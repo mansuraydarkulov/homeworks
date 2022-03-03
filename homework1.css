@@ -52,3 +52,39 @@ input:focus {
 .box-margin:hover{
     width: 200px;
 }
+
+.airplan {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin: -20px;
+    font-size: 100px;
+    animation: airplane 3s infinite linear;
+}
+@keyframes airplane {
+    from {
+            transform: rotate(0deg)
+                       translate(-150px)
+                       rotate(0deg);
+    }
+    to {
+            transform: rotate(360deg)
+                       translate(-150px)
+                       rotate(-360deg);
+    }
+}
+
+.spread {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: 0.5s ease;
+}
+.checkbox:checked + .spread{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+}
