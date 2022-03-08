@@ -79,12 +79,14 @@ input:focus {
 .spread {
     width: 100px;
     height: 100px;
-    background-color: green;
-    transition: 0.5s ease;
+    background: red;
+    position: relative;
+    animation: spread_move 5s infinite;
 }
-.checkbox:checked + .spread{
-    width: 100%;
-    height: 100%;
-    background-color: green;
-    position: absolute;
+.spread:hover {
+    animation-play-state: paused;
+}
+@keyframes spread_move {
+    from {left: 0px;}
+    to {left: 700px;}
 }
