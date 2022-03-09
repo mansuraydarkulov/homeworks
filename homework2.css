@@ -1,30 +1,51 @@
-.wrapper{
-    background-color:khaki;
+html, body {
     width: 100vw;
     height: 100vh;
+    background-color:goldenrod;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.block{
-    width: 800px; 
-    height: 600px;
+.container-1, .container-2{
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.container-1 div, .container-2 div{
+    border: 1px solid silver;
     background-color:aqua;
-    display: flex;
+    padding: 10px;
 }
 
 .element {
-    width: 50px; height: 50px;
+ 
 }
 
 .box1{
-    background-color:bisque
+    flex: 1;
 }
 .box2{
-    background-color:darkcyan    
+    flex: 1;    
 }
 .box3{
-    background-color:rosybrown  
-    /*flex-grow: 3;*/
+    flex: 2;
+}
+
+.box4{
+    flex: 2;
+}
+.box5{
+    flex: 1;
+}
+.box6{
+    flex: 2;
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
 }
