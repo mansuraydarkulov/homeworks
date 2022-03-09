@@ -1,0 +1,30 @@
+.wrapper{
+    background-color:khaki;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    width: 800px; 
+    height: 600px;
+    background-color:aqua;
+    display: flex;
+}
+
+.element {
+    width: 50px; height: 50px;
+}
+
+.box1{
+    background-color:bisque
+}
+.box2{
+    background-color:darkcyan    
+}
+.box3{
+    background-color:rosybrown  
+    /*flex-grow: 3;*/
+}
