@@ -4,20 +4,14 @@ html, body {
     background-color:goldenrod;
 }
 
-
-.container-1, .container-2{
+.container-1, .container-2 {
     display: flex;
 }
 
-.container-1 div, .container-2 div{
+.element {
     border: 1px solid silver;
     background-color:aqua;
     padding: 10px;
-}
-
-.element {
-    width: 150px;
-    height: 150px;
 }
 
 .box1{
@@ -40,10 +34,12 @@ html, body {
     flex: 2;
 }
 
-.box_center{
+.wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.box_center{
     background-color: blue;
     width: 100px;
     height: 100px;
@@ -113,4 +109,15 @@ html, body {
     left: 447px;
     top: 643px;
     background: #BB0000;
+}
+
+.wrapper4{
+    display: flex;
+    width: 750px;
+    height: 750px;
+    background-color:wheat;
+}
+
+.square{
+
 }
