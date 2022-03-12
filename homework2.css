@@ -41,6 +41,9 @@ html, body {
     padding: 20px;
 }
 .box_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
     width: 100px;
     height: 100px;
@@ -90,7 +93,7 @@ html, body {
     margin-top: 10px;
 }
 
-.wrapper3{
+.window{
     display: flex; 
     justify-content: center;
     padding: 20px;
@@ -167,18 +170,64 @@ html, body {
     align-items: center;
 }
 
-.wrapper4{
+.menu{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #c8cbda;
+}
+header {
     display: flex;
-    justify-content: center; 
+    justify-content: space-between;
     align-items: center;
+    padding: 30px 10%;
 }
-.menu-main{
-    width: 750px;
-    height: 50px;
-    background-color: rgb(231, 226, 218);
-    margin-top: 10px;
+li, a, button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7c898d;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: rgb(165, 162, 150)
+}
+button {
+    padding: 9px 25px;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgb(60, 60, 207);
 }
 
-.square{
-
-}  
+.flex-container {
+    display: flex;
+    margin: 10px;
+}
+.square {
+    background-color:rgb(165, 162, 150);
+    font-size: 50px;
+    color: #4e575a;
+    border: 1px solid silver;
+    margin: 5px;
+}
+.flex-container1{
+    
+}
+.flex-container2{
+   
+}
+.flex-container3{
+   
+}
