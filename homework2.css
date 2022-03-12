@@ -1,7 +1,7 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color:goldenrod;
+    /* background-color:goldenrod; */
 }
 
 .container-1, .container-2 {
@@ -38,6 +38,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .box_center{
     background-color: blue;
@@ -45,79 +46,139 @@ html, body {
     height: 100px;
 }
 
+.wrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-basis: 600px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
 .gallery{
-    position: absolute;
     width: 250px;
-    height: 200px;
+    height: 220px;
     left: 40px;
     top: 40px;
     background: #C4C4C4;
+    padding: 10px;
+
 }
 .gallery_box1{
-    position: absolute;
     width: 189px;
     height: 120px;
     left: 71px;
     top: 62px;
     background: #DDDDDD;
+    text-align: center;
 }
 .gallery_box2{
-    position: absolute;
     width: 139px;
-    height: 12px;
+    height: 24px;
     left: 71px;
     top: 189px;
     background: #DDDDDD;
+    margin-top: 10px;
 }
 .gallery_box3{
-    position: absolute;
     width: 188px;
-    height: 14px;
+    height: 24px;
     left: 71px;
     top: 208px;
     background: #BB0000;
+    margin-top: 10px;
+}
+
+.wrapper3{
+    display: flex; 
+    justify-content: center;
+    padding: 20px;
 }
 
 .modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+}
+.modal.show{
+    visibility: visible;
+    z-index: 100;
+    opacity: 1;
+}
+.modal .overlay{
     position: absolute;
-    width: 723px;
-    height: 446px;
-    left: 258px;
-    top: 289px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 0;
+}
+.modal-window{
+    position: relative;
+    z-index: 2;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, blue0, .4);
+    background-color:#fff;
+    padding: 30px;
     background: #C4C4C4;
 }
 .modal_box1{
-    position: absolute;
     width: 328px;
     height: 48px;
     left: 451px;
     top: 324px;
     background: #DDDDDD;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 .modal_box2{
-    position: absolute;
-    width: 592px;
+    width: 492px;
     height: 175px;
     left: 319px;
     top: 420px;
     background: #DDDDDD;
+    margin-top: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
-.modal_box3{
-    position: absolute;
+.btn-close{
+    margin: 10px;
     width: 340px;
     height: 51px;
     left: 447px;
     top: 643px;
     background: #BB0000;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
 .wrapper4{
     display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.menu-main{
     width: 750px;
-    height: 750px;
-    background-color:wheat;
+    height: 50px;
+    background-color: rgb(231, 226, 218);
+    margin-top: 10px;
 }
 
 .square{
 
-}
+}  

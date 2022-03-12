@@ -39,31 +39,70 @@
         <div class="wrapper">
             <div class="box_center">1</div>
         </div>
-        
+         
         <div class="wrapper2">
         <div class="gallery">
-            <div class="gallery_box1"></div>
-            <div class="gallery_box2"></div>
-            <div class="gallery_box3"></div>
+            <div class="gallery_box1">Изображение</div>
+            <div class="gallery_box2">Текст</div>
+            <div class="gallery_box3">Кнопка сохранить</div>
+        </div>
+        <div class="gallery">
+            <div class="gallery_box1">Изображение</div>
+            <div class="gallery_box2">Текст</div>
+            <div class="gallery_box3">Кнопка сохранить</div>
+        </div>
+        <div class="gallery">
+            <div class="gallery_box1">Изображение</div>
+            <div class="gallery_box2">Текст</div>
+            <div class="gallery_box3">Кнопка сохранить</div>
+        </div>
+        <div class="gallery">
+            <div class="gallery_box1">Изображение</div>
+            <div class="gallery_box2">Текст</div>
+            <div class="gallery_box3">Кнопка сохранить</div>
+        </div>
+        <div class="gallery">
+            <div class="gallery_box1">Изображение</div>
+            <div class="gallery_box2">Текст</div>
+            <div class="gallery_box3">Кнопка сохранить</div>
         </div>
         </div>
 
         <div class="wrapper3">
-        <div class="modal">
-            <div class="modal_box1"></div>
-            <div class="modal_box2"></div>
-            <div class="modal_box3"></div>
+            <button data-easy-toggle="#modalWin" data-easy-class="show">Модальное окно</button>
+        <div id="modalWin" class="modal">
+            <div class="modal-window">
+            <div class="modal_box1">Заголовок</div>
+            <div class="modal_box2">Текст</div>
+            <button data-easy-toggle="#modalWin" data-easy-class="open" class="btn-close">Закрыть</button>
+        </div>
+            <div data-easy-toggle="#modalWin" data-easy-class="show" class="overlay"></div>
         </div>
     </div>
 
-    <div class="wrapper4">
+     <div class="wrapper4">
+        <div class="menu-main">
+        <div class="menu menu1">Logo</div>
+        <div class="menu menu2">Home</div>
+        <div class="menu menu3">Team</div>
+        <div class="menu menu4">Services</div>
+        <div class="menu menu5">Contact</div>
+        <div class="menu menu6">Sign up</div>
+        </div>
+    </div>
+    
+
+    <!-- <div class="wrapper5">
         <div class="square square1">5</div>
         <div class="square square2">3</div>
         <div class="square square3">4</div>
         <div class="square square4">8</div>
         <div class="square square5">4</div>
         <div class="square square6">8</div>
-    </div>
+    </div>  -->
 
+<script>
+!function(){"use strict";document.addEventListener("click",function(t){const e=t.target.closest("[data-easy-toggle]");if(e){t.preventDefault();let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");try{document.querySelectorAll("[data-easy-toggle]").forEach(t=>{t.hasAttribute("data-easy-parallel")||t===e||document.querySelector(t.getAttribute("data-easy-toggle")).classList.remove(t.getAttribute("data-easy-class"))}),document.querySelector(a).classList.toggle(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}}if(!e){let e=document.querySelectorAll("[data-easy-rcoe]");Array.from(e).forEach.call(e,function(e){let a=e.getAttribute("data-easy-toggle"),s=e.getAttribute("data-easy-class");if(!t.target.closest(a))try{document.querySelector(a).classList.remove(s)}catch(t){console.warn("EasyToggler.js : Блок "+a+" не существует")}})}})}();
+</script>
 </body>
 </html>
