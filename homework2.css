@@ -212,22 +212,17 @@ button:hover{
 }
 
 .flex-container {
-    display: flex;
     margin: 10px;
+    display: flex;
+    border: 1px solid silver;
+    height: 700px;
+    width: 700px;
+    flex-wrap: wrap;
 }
-.square {
+.flex-item {
     background-color:rgb(165, 162, 150);
     font-size: 50px;
     color: #4e575a;
-    border: 1px solid silver;
     margin: 5px;
-}
-.flex-container1{
-    
-}
-.flex-container2{
-   
-}
-.flex-container3{
-   
+    width: 200px;
 }
