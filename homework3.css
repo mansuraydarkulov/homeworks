@@ -78,6 +78,10 @@ button:hover{
     background-color: rgb(60, 60, 207);
 }
 
+.menu-nav {
+    display: grid;
+}
+
 .grid-container {
     margin: 10px;
     display: grid;
