@@ -1,0 +1,98 @@
+* {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "HEADER NAV NAV"
+      "HERO HERO HERO"
+      "MAIN . IMAGE"
+      "MAIN . EXTRA"
+      "BANNER BANNER BANNER"; 
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .wrapper {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "HEADER HEADER HEADER"
+          "HERO HERO HERO"
+          "NAV MAIN MAIN"
+          "NAV BANNER BANNER"
+          "NAV EXTRA IMAGE"; 
+    }
+}
+
+
+@media (max-width: 320px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+header {
+    grid-area: HEADER;
+    background-color: rgb(19, 20, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+nav {
+    grid-area: NAV;
+    background-color: rgb(180, 63, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    grid-area: HERO;
+    background-color: rgb(48, 97, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    grid-area: MAIN;
+    background-color: rgb(38, 50, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    grid-area: IMAGE;
+    background-color: rgb(146, 172, 175);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.extra {
+    grid-area: EXTRA;
+    background-color: rgb(110, 114, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    grid-area: BANNER;
+    background-color: rgb(219, 221, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
