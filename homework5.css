@@ -1,6 +1,66 @@
+* {
+    
+}
+
 .container {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     width: 100vw;
     height: 100vh;
+}
+
+.menu{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+li, a, button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: rgb(219, 217, 204)
+}
+button {
+    padding: 9px 25px;
+    background-color: #ffffff15;
+    border: #ffffff solid;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(60, 60, 207, 0.123);
+}
+
+.left {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.zagol {
+    width: 650px;
+    height: 210px;
+    left: 121px;
+    top: 251px;
 }
