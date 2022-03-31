@@ -1,7 +1,3 @@
-* {
- 
-}
-
 .container {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
@@ -13,6 +9,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.logo {
+    width: 49px;
+    height: 49px;
+    left: 123px;
+    top: 32px;
+    background: linear-gradient(238.08deg, #A248D9 -25.15%, #ECCDFF 127.57%);
 }
 header {
     display: flex;
@@ -49,6 +52,13 @@ button:hover{
     background-color: rgba(60, 60, 207, 0.123);
 }
 
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
 .left {
     color: #ffffff;
     font-family: 'Poppins';
@@ -60,7 +70,6 @@ button:hover{
 }
 
 .zagol0{
-    position: absolute;
     width: 117px;
     height: 25px;
     left: 127px;
@@ -71,8 +80,6 @@ button:hover{
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    /* identical to box height, or 139% */
-
     letter-spacing: 0.15em;
 
     color: #FFFFFF;
@@ -81,7 +88,6 @@ button:hover{
 }
 
 .zagol1 {
-    position: absolute;
     width: 244px;
     height: 25px;
     left: 284px;
@@ -92,7 +98,6 @@ button:hover{
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    /* identical to box height, or 139% */
     
     letter-spacing: 0.15em;
     
@@ -102,7 +107,6 @@ button:hover{
 }
 
 .zagol2 {
-    position: absolute;
     width: 650px;
     height: 210px;
     left: 121px;
@@ -113,7 +117,6 @@ button:hover{
     font-weight: 600;
     font-size: 66px;
     line-height: 70px;
-    /* or 106% */
     
     letter-spacing: 0.03em;
     
@@ -123,7 +126,6 @@ button:hover{
 }
 
 .zagol3{
-    position: absolute;
     width: 545px;
     height: 78px;
     left: 127px;
@@ -145,7 +147,6 @@ button:hover{
 }
 
 .zagol4{
-    position: absolute;
     width: 150px;
     height: 21px;
     left: 124px;
@@ -156,7 +157,6 @@ button:hover{
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
 
     letter-spacing: 0.13em;
 
@@ -165,7 +165,6 @@ button:hover{
 }
 
 .button1{
-    position: absolute;
     width: 186px;
     height: 46px;
     left: 123px;
@@ -177,7 +176,6 @@ button:hover{
 }
 
 .button2{
-    position: absolute;
     width: 188px;
     height: 46px;
     left: 320px;
@@ -190,7 +188,6 @@ button:hover{
 }
 
 .img1 {
-    position: absolute;
     width: 165px;
     height: 164px;
     left: 1073px;
@@ -198,7 +195,6 @@ button:hover{
 }
 
 .img2 {
-    position: absolute;
     width: 266px;
     height: 252px;
     left: 786px;
@@ -206,7 +202,6 @@ button:hover{
 }
 
 .img3 {
-    position: absolute;
     width: 203px;
     height: 193px;
     left: 849px;
@@ -214,7 +209,6 @@ button:hover{
 }
 
 .img4 {
-    position: absolute;
     width: 266px;
     height: 252px;
     left: 1073px;
