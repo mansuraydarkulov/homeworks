@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 
-.menu{
+.menu {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ button {
     border-radius: 50px;
     transition: all 0.3s ease 0s;
 }
-button:hover{
+button:hover {
     background-color: rgba(60, 60, 207, 0.123);
 }
 
@@ -70,7 +70,7 @@ button:hover{
     padding: 25px;
 }
 
-.zagol0{
+.zagol0 {
     width: 117px;
     height: 25px;
     left: 127px;
@@ -126,7 +126,7 @@ h1 {
     margin: 5px;
 }
 
-.zagol3{
+.zagol3 {
     width: 545px;
     height: 78px;
     left: 127px;
@@ -147,7 +147,7 @@ h1 {
     margin: 5px;
 }
 
-.zagol4{
+.zagol4 {
     width: 150px;
     height: 21px;
     left: 124px;
@@ -165,7 +165,7 @@ h1 {
     margin: 5px;
 }
 
-.button1{
+.button1 {
     width: 186px;
     height: 46px;
     left: 123px;
@@ -176,7 +176,7 @@ h1 {
     margin: 5px;
 }
 
-.button2{
+.button2 {
     width: 188px;
     height: 46px;
     left: 320px;
@@ -214,4 +214,43 @@ h1 {
     height: 252px;
     left: 1073px;
     top: 403px;
+}
+
+h2 {
+    /* Latest Episodes */
+    position: absolute;
+    width: 293px;
+    height: 53px;
+    left: 119px;
+    top: 1000px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.view {
+    /* View all */
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 1252px;
+    top: 1025px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #9224D6;
+}
+
+.episodes_up {
+    display: flex;
+    justify-content: space-between;
+    
 }
