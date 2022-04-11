@@ -6,16 +6,9 @@
     margin: 0 auto;
 }
 
-.menu {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 .logo {
     width: 49px;
     height: 49px;
-    left: 123px;
-    top: 32px;
     background: linear-gradient(238.08deg, #A248D9 -25.15%, #ECCDFF 127.57%);
 }
 header {
@@ -53,7 +46,7 @@ button:hover {
     background-color: rgba(60, 60, 207, 0.123);
 }
 
-.container2{
+.container2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,8 +66,7 @@ button:hover {
 .zagol0 {
     width: 117px;
     height: 25px;
-    left: 127px;
-    top: 207px;
+
 
     font-family: 'Poppins';
     font-style: normal;
@@ -214,6 +206,12 @@ h1 {
     height: 252px;
     left: 1073px;
     top: 403px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    width: 355px;
 }
 
 h2 {
