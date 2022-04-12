@@ -1,0 +1,25 @@
+@import url('/podcast120422/styles/normalize.css')
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p, h1 {
+    margin: 0;
+}
+
+.header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+}
+
