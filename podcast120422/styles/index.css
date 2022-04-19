@@ -180,5 +180,43 @@ ul {
 }
 
 .everyday__right-box {
-    
+    display: flex;
+}
+
+.everyday__right-box-wrapper-1 {
+    margin-right: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.everyday__custom-box1 {
+    width: 266px;
+    border
+}
+
+.everyday__custom-box2 {
+    width: 203px;
+    height: 193px;
+    background-color:aliceblue;
+}
+
+.everyday__custom-box3, .everyday__custom-box4 {
+    width: ;
+    background-color:aliceblue;
+
+}
+
+.latest-episodes {
+    width: 100%;
+}
+
+.latest-episodes__list-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: ;
+}
+
+.latest-episodes__title {
+
 }
