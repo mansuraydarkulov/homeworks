@@ -87,7 +87,67 @@ ul {
 
 .header__button {
     background: transparent;
-    padding: 36px;
+    padding: 9px 36px;
     border: 1px solid;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.everyday {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.custom-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 18px;
+}
+
+.custom-box__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+}
+
+.everyday__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 70px;
+    letter-spacing: 0.03em;
+    width: 650px;
+}
+
+.everyday__left-box-button {
+    display: flex;
+    align-items: center;
+}
+
+.everyday__left-box-button > button:nth-child(1) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    background: linear-gradient(265.37deg, #9224D6 -49.74%, #BD87DE 116.53%);
+    border-radius: 30px;
+}
+
+.everyday__left-box-button > button:nth-child(2) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    background: transparent;
     border-radius: 30px;
 }
