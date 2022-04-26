@@ -7,7 +7,6 @@
 body {
     margin: 0;
     padding: 0;
-    color: white;
 }
 
 p, h1 {
@@ -20,6 +19,7 @@ ul {
 }
 
 .header {
+    color: #FFFFFF;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
@@ -31,6 +31,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .logo {
@@ -96,6 +97,7 @@ ul {
 }
 
 .everyday {
+    color: #FFFFFF;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
@@ -115,6 +117,7 @@ ul {
 }
 
 .custom-box__title {
+    margin-top: 25px;
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 18px;
@@ -184,7 +187,7 @@ ul {
 }
 
 .everyday__right-box-wrapper-1 {
-    /* margin-right: 21px; */
+    margin-right: 21px;  
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -193,37 +196,57 @@ ul {
 .everyday__custom-block-1 {
     border-radius: 30px 30px 0px 30px;
     margin-top: 40px;
+    margin-bottom: 21px;
     width: 266px;
     height: 252px;
-    background: url(../img/image4.png);
+    background: no-repeat center url(../img/image4.png);
     
 }
 
-.everyday__custom-block-1, 
+/* .everyday__custom-block-1, 
 .everyday__custom-block-3 {
-    /* margin-right: 21px; */
+    margin-right: 21px; 
 }
+.everyday__custom-block-2, 
+.everyday__custom-block-4 {
+    margin-right: 21px; 
+} */
 
 .everyday__custom-block-2 {
     border-radius: 30px 0px 30px 30px;
     width: 203px;
     height: 193px;
-    background: url(../img/image2.png);
+    background: no-repeat center url(../img/image2.png);
 }
 
 .everyday__custom-block-3 {
     border-radius: 30px 30px 30px 0px;
+    margin-bottom: 21px;
     width: 165px;
     height: 164px;
-    background: url(../img/image1.png);
+    background: no-repeat center url(../img/image1.png);
 }
-
 
 .everyday__custom-block-4 {
     border-radius: 0px 30px 30px 30px;
     width: 266px;
     height: 252px;
-    background: url(../img/image3.png);
+    background: no-repeat center url(../img/image3.png);
+}
+
+.everyday__left-box-find-text {
+    margin-top: 63px;
+}
+
+.everyday__left-box-find-icon {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 157px; */
+}
+.everyday__left-box-find-icon-1,
+.everyday__left-box-find-icon-2{
+    margin-right: 26px;
 }
 
 .latest-episodes {
@@ -233,9 +256,118 @@ ul {
 .latest-episodes__list-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: ;
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .latest-episodes__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
 
+.latest-episodes__info-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latest-episodes__link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #9224D6;
+}
+
+.latest-episodes__cards-image {
+    width: 376px;
+    height: 280px;
+    left: 499px;
+    top: 1103px;
+
+    border-radius: 10px;
+    background: no-repeat center url(../img/man.png);
+}
+
+.custom-box__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    margin-top: 25px;
+    background: #1C1B1E;
+}
+
+.latest-episodes__title-cards {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.latest-episodes__subtitle-card {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 19px;
+}
+
+.latest-episodes__add-info-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.latest-episodes__add-info-card-wrapper-1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #9224D6;
+}
+
+.latest-episodes__add-info-card-wrapper-2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+    opacity: 0.6;
 }
