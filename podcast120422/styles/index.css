@@ -31,7 +31,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    text-decoration: ;
 }
 
 .logo {
@@ -251,12 +251,14 @@ ul {
 
 .latest-episodes {
     width: 100%;
+    margin-bottom: 155px;
 }
 
 .latest-episodes__list-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+
 }
 
 .latest-episodes__title {
@@ -370,4 +372,121 @@ ul {
     color: #000000;
 
     opacity: 0.6;
+}
+
+.meet-your-host {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meet-your-host__avatar {
+    position: relative;
+    margin-right: 117px;
+    width: 466px;
+    height: 543px;
+    flex-shrink: 0;
+    background: no-repeat center/cover url(../img/image5.png);
+    z-index: 2;
+}
+
+.meet-your-host__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    margin-right: 30px;
+    color: #000000;
+}
+
+.meet-your-host__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+    opacity: 0.7;
+
+    margin-bottom: 50px;
+}
+
+.meet-your-host__button {
+    width: 153px;
+    height: 50px;
+
+    border: 1px solid #1C1B1E;
+    box-sizing: border-box;
+    border-radius: 40px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.05em;
+
+    color: #1C1B1E;
+
+    padding: 10px 27px;
+}
+
+.meet-your-host__avatar > div {
+    position: absolute;
+    border-radius: 50%
+}
+
+
+.meet-your-host__decor-el-1 {
+    width: 134px;
+    height: 134px;
+    background: #FFD646;
+    top: -55px;
+    left: -53px;
+    z-index: -1;
+}
+
+.meet-your-host__decor-el-2 {
+    top: -38px;
+    right: -38px;
+    width: 105px;
+    height: 105px;
+    background: #8FDEFF;
+}
+
+.meet-your-host__decor-el-3 {
+    top: 300px;
+    right: -65px;
+    width: 34px;
+    height: 34px;
+    background: #FF8E8E;
+}
+
+.advertising {
+    width: 100%;
+    padding-top: 114px;
+}
+
+.advertising__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
 }
