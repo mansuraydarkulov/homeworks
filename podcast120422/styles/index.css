@@ -184,27 +184,46 @@ ul {
 }
 
 .everyday__right-box-wrapper-1 {
-    margin-right: 21px;
+    /* margin-right: 21px; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.everyday__custom-box1 {
+.everyday__custom-block-1 {
+    border-radius: 30px 30px 0px 30px;
+    margin-top: 40px;
     width: 266px;
-    border
+    height: 252px;
+    background: url(../img/image4.png);
+    
 }
 
-.everyday__custom-box2 {
+.everyday__custom-block-1, 
+.everyday__custom-block-3 {
+    /* margin-right: 21px; */
+}
+
+.everyday__custom-block-2 {
+    border-radius: 30px 0px 30px 30px;
     width: 203px;
     height: 193px;
-    background-color:aliceblue;
+    background: url(../img/image2.png);
 }
 
-.everyday__custom-box3, .everyday__custom-box4 {
-    width: ;
-    background-color:aliceblue;
+.everyday__custom-block-3 {
+    border-radius: 30px 30px 30px 0px;
+    width: 165px;
+    height: 164px;
+    background: url(../img/image1.png);
+}
 
+
+.everyday__custom-block-4 {
+    border-radius: 0px 30px 30px 30px;
+    width: 266px;
+    height: 252px;
+    background: url(../img/image3.png);
 }
 
 .latest-episodes {
