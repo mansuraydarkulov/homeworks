@@ -32,8 +32,11 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: column;
+    
 } 
+.main-wrapper {
+    flex-direction: column;
+}
 
 .logo {
     display: flex;
@@ -343,6 +346,7 @@ ul {
     height: 4px;
     margin-top: 0 12px;
     background-color: #1C1B1E;
+
 }
 
 .latest-episodes__title-cards {
@@ -419,6 +423,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .meet-your-host__avatar {
@@ -468,7 +473,7 @@ ul {
     border: 1px solid #1C1B1E;
     box-sizing: border-box;
     border-radius: 40px;
-
+    background: none;
     
     font-style: normal;
     font-weight: 500;
@@ -515,16 +520,78 @@ ul {
 }
 
 .advertising {
+
+    border-radius: 10px;
+    padding: 114px 0 132px;
     width: 100%;
     padding-top: 114px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .advertising__title {
-    
+    text-align: center;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 45px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.advertising__subtitle {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.7;
+
+    margin-bottom: 49px;
+}
+
+.advertising__form {
+    margin: 0 auto;
+    width: 510px;
+    position: relative;
+    height: 45px;
+}
+
+.advertising__form-input {
+    color: #FFFFFF;
+    padding: 12px 173px 16px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    background: none;
+    position: absolute;
+}
+
+.advertising__submit{
+    position: absolute;
+    height: 100%;
+    padding: 0 36px;
+    background: linear-gradient(265.37deg, #9224D6 -49.74%, #BD87DE 116.53%);
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
     /* identical to box height */
 
     letter-spacing: 0.05em;
