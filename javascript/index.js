@@ -21,13 +21,12 @@ c = (Number(a) / Number(b));
 alert("Деление чисел: "+c); 
 
 // 5
-let x = prompt("Введите число x");
-let y = prompt("Введите число y");
-let number = 0;
-let number = (Number(x) / Number(y));
+var x = prompt("Введите число x");
+var y = prompt("Введите число y");
+var number = 0;
+var number = (Number(x) / Number(y));
 if (number % 2 == 0) {
     alert("Число четное");
 } else {
     alert("Число нечётное");
 }
-
