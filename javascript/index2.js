@@ -28,13 +28,13 @@ console.log(calcMult(2, 3))
 let calcDiv = (a, b) => a / b;
 console.log(calcDiv(6, 3))
 
-//4
-let userName = prompt('Как вас зовут');
+// //4
+// let userName = prompt('Как вас зовут');
 
-function showMessage() {
+// function showMessage() {
 
-  let message = 'Привет, ' + userName;
-  console.log(message);
-}
+//   let message = 'Привет, ' + userName;
+//   console.log(message);
+// }
 
-showMessage();  
+// showMessage();  
