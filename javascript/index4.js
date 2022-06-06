@@ -4,16 +4,15 @@ function fib(n) {
   console.log( fib(2) );  
   console.log( fib(9) ); 
 
-function fib(n) {
+function fibonacci(num) {
     let a = 1;
     let b = 1;
-    for (let i = 3; i <= n; i++) {
-      let c = a + b;
-      a = b;
-      b = c;
+
+    for (let i = 3; i <= num; i++) {
+    let c = a + b;
     }
     return b;
   }
   
-  console.log( fib(3) ); // 2
-  console.log( fib(7) ); // 13
+  console.log( fibonacci(8) );  
+  console.log( fibonacci(7) );  
