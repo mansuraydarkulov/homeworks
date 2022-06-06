@@ -4,8 +4,7 @@ function fib(n) {
     }
     return fib(n -1) + fib(n -2);
   }
-  console.log(fib(5));  
-  console.log(fib(6)); 
+console.log(fib(5));  
 
 function fibonacci(num) {
     let a = 1;
@@ -18,6 +17,4 @@ function fibonacci(num) {
     }
     return b;
   }
-  
-  console.log(fibonacci(7));  
-  console.log(fibonacci(8));  
+console.log(fibonacci(10));  
